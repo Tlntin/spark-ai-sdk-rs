@@ -11,6 +11,7 @@
 ```bash
 cargo build --release
 ```
+- or download compiled binary file in https://github.com/Tlntin/spark-ai-sdk-rs/releases
 
 3. use
 - get help

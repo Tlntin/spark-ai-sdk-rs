@@ -11,6 +11,7 @@
 ```bash
 cargo build --release
 ```
+- 或者直接去Release下载编译好的二进制文件, 链接：https://github.com/Tlntin/spark-ai-sdk-rs/releases
 
 3. 使用
 - 获取帮助
