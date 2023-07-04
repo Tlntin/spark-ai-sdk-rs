@@ -89,7 +89,7 @@ jobs:
         VERSION: ${{ inputs.version }}
       run: |
         mkdir output/
-        mv target/${{ matrix.target }}/release/et output/spark-ai-sdk-rs--${VERSION}-${{ matrix.target }}
+        mv target/${{ matrix.target }}/release/spark-ai-sdk-rs output/spark-ai-sdk-rs--${VERSION}-${{ matrix.target }}
     
     - name: Rename files (only for Windows)
       if: matrix.target == 'x86_64-pc-windows-msvc'
