@@ -1,0 +1,23 @@
+[package]
+name = "spark-ai-sdk-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+url = "2.4.0"
+chrono = "0.4.26"
+data-encoding = "2.4.0"
+# hmac = "0.12.1"
+# sha2 = "0.10.7"
+serde = { version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+tungstenite = { version="0.19.0", features=["native-tls"]}
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = { version="0.19.0", features=["native-tls"]}
+tokio-stream = "0.1.14"
+futures = "0.3"
+ring = "0.16.20"
+clap = {version="4.3.10", features=["derive"]}
+dialoguer = "0.10.4"
